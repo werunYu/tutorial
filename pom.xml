@@ -24,7 +24,8 @@
 	<modules>
 		<module>BloomFilter</module>
 		<module>algorithm</module>
-	</modules>
+        <module>rabbitmq</module>
+    </modules>
 	<scm>
 		<connection/>
 		<developerConnection/>

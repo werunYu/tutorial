@@ -10,12 +10,12 @@ import java.util.Arrays;
  */
 public class Sort {
 
-  public static void main(String[] args) {
-    int[] arrays = {6, 5, 9, 2, 1, 0, 4, 7, 3, 8};
-    //        insertSort(arrays);
-    quickSort(arrays, 0, arrays.length - 1);
-    System.out.println(Arrays.toString(arrays));
-  }
+//  public static void main(String[] args) {
+//    int[] arrays = {6, 5, 9, 2, 1, 0, 4, 7, 3, 8};
+//    //        insertSort(arrays);
+//    quickSort(arrays, 0, arrays.length - 1);
+//    System.out.println(Arrays.toString(arrays));
+//  }
 
   /**
    * 选择排序.

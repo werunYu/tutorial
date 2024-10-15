@@ -1,0 +1,8 @@
+server:
+  port: 9980
+spring:
+  rabbitmq:
+    host: "43.142.53.20"
+    port: 5672
+    username: "werun"
+    password: "werun"
