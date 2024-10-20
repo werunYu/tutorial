@@ -5,6 +5,8 @@
       <directory url="file://$PROJECT_DIR$/BloomFilter/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/algorithm/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/rabbitmq/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/cloud/env-test/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/cloud/eureka-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -13,7 +15,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bloom-filter" />
+        <module name="env-test" />
         <module name="rabbitmq" />
+        <module name="eureka-server" />
         <module name="algorithm" />
       </profile>
     </annotationProcessing>
@@ -22,6 +26,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="algorithm" options="-parameters" />
       <module name="bloom-filter" options="-parameters" />
+      <module name="cloud" options="" />
+      <module name="env-test" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
     </option>
   </component>
