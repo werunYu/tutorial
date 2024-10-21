@@ -7,6 +7,8 @@
       <directory url="file://$PROJECT_DIR$/rabbitmq/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/cloud/env-test/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/cloud/eureka-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/cloud/ek-service-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/cloud/ek-service-invoker/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -15,7 +17,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bloom-filter" />
+        <module name="ek-service-provider" />
         <module name="env-test" />
+        <module name="ek-service-invoker" />
         <module name="rabbitmq" />
         <module name="eureka-server" />
         <module name="algorithm" />
@@ -27,6 +31,8 @@
       <module name="algorithm" options="-parameters" />
       <module name="bloom-filter" options="-parameters" />
       <module name="cloud" options="" />
+      <module name="ek-service-invoker" options="-parameters" />
+      <module name="ek-service-provider" options="-parameters" />
       <module name="env-test" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />

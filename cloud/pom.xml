@@ -13,6 +13,8 @@
     <modules>
         <module>env-test</module>
         <module>eureka-server</module>
+        <module>ek-service-provider</module>
+        <module>ek-service-invoker</module>
     </modules>
 
     <dependencyManagement>
@@ -21,7 +23,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Dalston.SR1</version>
+                <version>2023.0.3</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
