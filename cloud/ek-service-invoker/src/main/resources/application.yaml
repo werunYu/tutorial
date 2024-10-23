@@ -2,7 +2,7 @@ spring:
   application:
     name: FIRST-SERVICE-INVOKER
 server:
-  port: 8763
+  port: 8764
 
 eureka:
   instance:
@@ -14,4 +14,4 @@ eureka:
     # 是否到Eureka服务器中抓取注册信息，默认为true
     fetch-registry: true
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka/
+      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8762/eureka/
